@@ -1,10 +1,10 @@
 package com.infnet.dominios.funcionarios;
 
-import com.infnet.dominios.Cargo;
+import com.infnet.dominios.empresarial.Cargo;
 
 import java.math.BigDecimal;
 
-public interface FuncionarioInterno {
+public interface FuncionarioInternoFactory {
 
     BigDecimal reajustarSalario();
 

@@ -9,14 +9,12 @@
 ### Estrutural
 #### - Ponte
 
-
-https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
 ## SOLID
 ### S - Principio da Responsabilidade Única
-####
+#### Utilizado por exemplo, no agrupamento dos dados de Endereço
 
 ### O - Principio Aberto Fechado
-####
+#### Utilizado por meio da implementação de interfaces e classes que não deixam que Estagiario tenha salario, e Senior tenha avanço de cargo.
 
 ### L - Principio da Substituição de Liskov
 ##### Utilizado para evitar que Funcionário Terceirizado, apesar de ser um Funcionário, não ter o método reajustarSalário()
@@ -28,7 +26,8 @@ https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-p
 ####
 
 ### Clean Code
-#### Foi utilizado refatoração de funções, como por exemplo, calcularReajusteSalarial() em Cargo.
+#### Foi utilizado refatoração de funções, como por exemplo, o switch calcularReajusteSalarial() em Cargo foi removido e utilizado Classes para cada tipo de funcionario, utilizando uma interface de FuncionarioInterno, e uma interface exclusiva para FuncionarioInternoSenior, que não possui avanço de cargo
+<img src="images/Switch_ReajustarSalarioPorCargo.png" width="100%" height="100%">
 
 ### Bad smells
 #### 

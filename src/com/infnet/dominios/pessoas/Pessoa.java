@@ -1,4 +1,4 @@
-package com.infnet.dominios;
+package com.infnet.dominios.pessoas;
 
 import java.util.ArrayList;
 

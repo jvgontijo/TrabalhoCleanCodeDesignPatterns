@@ -1,9 +1,9 @@
 package com.infnet.dominios.funcionarios;
 
-import com.infnet.dominios.Cargo;
-import com.infnet.dominios.Empresa;
-import com.infnet.dominios.Endereco;
-import com.infnet.dominios.Setor;
+import com.infnet.dominios.empresarial.Cargo;
+import com.infnet.dominios.empresarial.Empresa;
+import com.infnet.dominios.pessoas.Endereco;
+import com.infnet.dominios.empresarial.Setor;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

@@ -1,4 +1,6 @@
-package com.infnet.dominios;
+package com.infnet.dominios.empresarial;
+
+import com.infnet.dominios.pessoas.Endereco;
 
 public class Empresa {
 

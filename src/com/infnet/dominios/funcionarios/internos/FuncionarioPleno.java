@@ -1,15 +1,15 @@
 package com.infnet.dominios.funcionarios.internos;
 
-import com.infnet.dominios.Cargo;
-import com.infnet.dominios.Endereco;
-import com.infnet.dominios.Setor;
+import com.infnet.dominios.empresarial.Cargo;
+import com.infnet.dominios.pessoas.Endereco;
+import com.infnet.dominios.empresarial.Setor;
 import com.infnet.dominios.funcionarios.Funcionario;
-import com.infnet.dominios.funcionarios.FuncionarioInterno;
+import com.infnet.dominios.funcionarios.FuncionarioInternoFactory;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-public class FuncionarioPleno extends Funcionario implements FuncionarioInterno {
+public class FuncionarioPleno extends Funcionario implements FuncionarioInternoFactory {
 
     public FuncionarioPleno(
             String nome,

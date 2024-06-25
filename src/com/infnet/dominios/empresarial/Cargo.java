@@ -1,6 +1,4 @@
-package com.infnet.dominios;
-
-import java.math.BigDecimal;
+package com.infnet.dominios.empresarial;
 
 public enum Cargo {
     ESTAGIARIO, JUNIOR, PLENO, SENIOR;
