@@ -9,9 +9,9 @@ import java.util.ArrayList;
 
 public class Estagiario extends Pessoa implements FuncionarioEstagiarioFactory {
 
-    private BigDecimal bolsaAuxilio;
+    private final BigDecimal bolsaAuxilio;
 
-    private Cargo cargo;
+    private final Cargo cargo;
 
     public Estagiario(
             String nome,
@@ -24,21 +24,21 @@ public class Estagiario extends Pessoa implements FuncionarioEstagiarioFactory {
         this.cargo = Cargo.ESTAGIARIO;
     }
 
-    public BigDecimal getBolsaAuxilio() {
+    public BigDecimal pegarBolsaAuxilio() {
         return bolsaAuxilio;
     }
 
-    public Cargo getCargo() {
+    public Cargo pegarCargo() {
         return cargo;
     }
 
     @Override
-    public BigDecimal reajustarBolsaAuxilio() {
-        return this.bolsaAuxilio.add(this.bolsaAuxilio.multiply(BigDecimal.valueOf(0.1)));
+    public BigDecimal reajustarBolsaAuxilio(double valor) {
+        return this.bolsaAuxilio.add(BigDecimal.valueOf(valor));
     }
 
     @Override
     public Cargo reajustarCargo() {
-        return this.getCargo().avancar();
+        return this.pegarCargo().avancar();
     }
 }

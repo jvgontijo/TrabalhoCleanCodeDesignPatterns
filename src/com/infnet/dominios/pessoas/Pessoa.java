@@ -15,15 +15,15 @@ public abstract class Pessoa {
         this.endereco = endereco;
     }
 
-    public String getNome() {
+    public String pegarNome() {
         return nome;
     }
 
-    public ArrayList<String> getTelefones() {
+    public ArrayList<String> pegarTelefones() {
         return telefones;
     }
 
-    public Endereco getEndereco() {
+    public Endereco pegarEndereco() {
         return endereco;
     }
 }

@@ -23,11 +23,9 @@
 ##### Utilizado para criar interfaces especificas e impedir que uma classe não implemente métodos que não irá utilizar
 
 ### D - Princípio da Inversão da Dependência
-####
+#### Não identificado para aplicação
 
-### Clean Code
-#### Foi utilizado refatoração de funções, como por exemplo, o switch calcularReajusteSalarial() em Cargo foi removido e utilizado Classes para cada tipo de funcionario, utilizando uma interface de FuncionarioInterno, e uma interface exclusiva para FuncionarioInternoSenior, que não possui avanço de cargo
+### Clean Code e Bad Smells
+#### Foram utilizados nomes coesos.
+#### Foi utilizado refatoração de funções, como por exemplo, o switch calcularReajusteSalarial() em Cargo foi removido e utilizado Classes para cada tipo de funcionario, utilizando uma interface de FuncionarioInterno, e uma interface exclusiva para FuncionarioInternoSenior, que não possui avanço de cargo.
 <img src="images/Switch_ReajustarSalarioPorCargo.png" width="100%" height="100%">
-
-### Bad smells
-#### 

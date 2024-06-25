@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 public interface FuncionarioEstagiarioFactory {
 
-    BigDecimal reajustarBolsaAuxilio();
+    BigDecimal reajustarBolsaAuxilio(double valor);
 
     Cargo reajustarCargo();
 

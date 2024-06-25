@@ -1,4 +1,4 @@
-package com.infnet.dominios.funcionarios.internos;
+package com.infnet.dominios.funcionarios.internos.senior;
 
 import com.infnet.dominios.empresarial.Cargo;
 import com.infnet.dominios.pessoas.Endereco;
@@ -21,8 +21,8 @@ public class FuncionarioSenior extends Funcionario implements FuncionarioInterno
     }
 
     @Override
-    public BigDecimal reajustarSalario() {
-        return getSalario().add(getSalario().multiply(BigDecimal.valueOf(0.4)));
+    public BigDecimal reajustarSalario(double valor) {
+        return pegarSalario().add(BigDecimal.valueOf(valor));
     }
 
 }

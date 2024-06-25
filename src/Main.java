@@ -12,7 +12,7 @@ public class Main {
         telefonesJoao.add("1233-2233");
         telefonesJoao.add("1233-4431");
 
-        FuncionarioPleno joao = new FuncionarioPleno(
+        FuncionarioPleno funcionario = new FuncionarioPleno(
                 "João",
                 telefonesJoao,
                 new Endereco("rua tal", "Centro", 1123, "Cidade", "79984500", "MS"),
@@ -20,11 +20,8 @@ public class Main {
                 Setor.DESENVOLVIMENTO
         );
 
-        System.out.println("Salário reajustado de " + joao.getNome() + " é: " + joao.reajustarSalario());
-
-        ArrayList<String> telefonesAna = new ArrayList<>();
-
-//        FuncionarioTerceirizado ana = new FuncionarioTerceirizado( );
+        System.out.println("Salário de " + funcionario.pegarNome() + " é: " + funcionario.pegarSalario());
+        System.out.println("Salário reajustado de " + funcionario.pegarNome() + " é: " + funcionario.reajustarSalario(120));
 
 
     }

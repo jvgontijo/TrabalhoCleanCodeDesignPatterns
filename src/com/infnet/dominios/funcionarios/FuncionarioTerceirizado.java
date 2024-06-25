@@ -29,11 +29,11 @@ public class FuncionarioTerceirizado extends Funcionario {
         this.tempoPrevistoDePermanencia = tempoPrevistoDePermanencia;
     }
 
-    public Empresa getEmpresaContratada() {
+    public Empresa pegarEmpresaContratada() {
         return empresaContratada;
     }
 
-    public LocalDate getTempoPrevistoDePermanencia() {
+    public LocalDate pegarTempoPrevistoDePermanencia() {
         return tempoPrevistoDePermanencia;
     }
 

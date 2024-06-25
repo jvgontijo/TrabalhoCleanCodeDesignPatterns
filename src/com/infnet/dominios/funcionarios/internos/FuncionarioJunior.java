@@ -22,11 +22,12 @@ public class FuncionarioJunior extends Funcionario implements FuncionarioInterno
     }
 
     @Override
-    public BigDecimal reajustarSalario() {
-        return getSalario().add(getSalario().multiply(BigDecimal.valueOf(0.2)));    }
+    public BigDecimal reajustarSalario(double valor) {
+        return pegarSalario().add(BigDecimal.valueOf(valor));
+    }
 
     @Override
     public Cargo reajustarCargo() {
-        return getCargo().avancar();
+        return pegarCargo().avancar();
     }
 }

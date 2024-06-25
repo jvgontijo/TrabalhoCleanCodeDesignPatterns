@@ -26,15 +26,15 @@ public abstract class Funcionario extends Pessoa {
         this.cargo = cargo;
     }
 
-    public BigDecimal getSalario() {
+    public BigDecimal pegarSalario() {
         return salario;
     }
 
-    public Setor getSetor() {
+    public Setor pegarSetor() {
         return setor;
     }
 
-    public Cargo getCargo() {
+    public Cargo pegarCargo() {
         return cargo;
     }
 
