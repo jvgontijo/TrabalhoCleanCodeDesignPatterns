@@ -5,6 +5,7 @@ import com.infnet.dominios.pessoas.Endereco;
 import com.infnet.dominios.empresarial.Setor;
 import com.infnet.dominios.funcionarios.Funcionario;
 import com.infnet.dominios.funcionarios.FuncionarioInternoFactory;
+import com.infnet.dominios.pessoas.Telefone;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -13,7 +14,7 @@ public class FuncionarioPleno extends Funcionario implements FuncionarioInternoF
 
     public FuncionarioPleno(
             String nome,
-            ArrayList<String> telefones,
+            ArrayList<Telefone> telefones,
             Endereco endereco,
             BigDecimal salario,
             Setor setor

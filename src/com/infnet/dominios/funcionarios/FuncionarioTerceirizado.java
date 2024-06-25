@@ -4,6 +4,7 @@ import com.infnet.dominios.empresarial.Cargo;
 import com.infnet.dominios.empresarial.Empresa;
 import com.infnet.dominios.pessoas.Endereco;
 import com.infnet.dominios.empresarial.Setor;
+import com.infnet.dominios.pessoas.Telefone;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -16,7 +17,7 @@ public class FuncionarioTerceirizado extends Funcionario {
 
     public FuncionarioTerceirizado(
             String nome,
-            ArrayList<String> telefones,
+            ArrayList<Telefone> telefones,
             Endereco endereco,
             BigDecimal salario,
             Setor setor,

@@ -3,6 +3,7 @@ package com.infnet.dominios.funcionarios.internos.estagiario;
 import com.infnet.dominios.empresarial.Cargo;
 import com.infnet.dominios.pessoas.Endereco;
 import com.infnet.dominios.pessoas.Pessoa;
+import com.infnet.dominios.pessoas.Telefone;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ public class Estagiario extends Pessoa implements FuncionarioEstagiarioFactory {
 
     public Estagiario(
             String nome,
-            ArrayList<String> telefones,
+            ArrayList<Telefone> telefones,
             Endereco endereco,
             BigDecimal bolsaAuxilio
     ) {

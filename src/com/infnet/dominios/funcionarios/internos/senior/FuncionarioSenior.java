@@ -4,6 +4,7 @@ import com.infnet.dominios.empresarial.Cargo;
 import com.infnet.dominios.pessoas.Endereco;
 import com.infnet.dominios.empresarial.Setor;
 import com.infnet.dominios.funcionarios.Funcionario;
+import com.infnet.dominios.pessoas.Telefone;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -12,7 +13,7 @@ public class FuncionarioSenior extends Funcionario implements FuncionarioInterno
 
     public FuncionarioSenior(
             String nome,
-            ArrayList<String> telefones,
+            ArrayList<Telefone> telefones,
             Endereco endereco,
             BigDecimal salario,
             Setor setor
