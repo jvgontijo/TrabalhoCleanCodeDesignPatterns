@@ -5,7 +5,7 @@
 #### - Fábrica Abstrata
 #### - Método Fábrica
 ### Comportamental
-#### - 
+#### -
 ### Estrutural
 #### - Ponte
 
@@ -32,8 +32,9 @@
 <img src="images/Switch_ReajustarSalarioPorCargo.png" width="100%" height="100%">
 <img src="images/Organizacao_arquivos_funcionarios.png" width="100%" height="100%">
 <img src="images/funcionario_interno_factory.png" width="100%" height="100%">
+<img src="images/funcionario_pleno.png" width="100%" height="100%">
 <img src="images/funcionario_senior_factory.png" width="100%" height="100%">
-
+<img src="images/funcionario_senior.png" width="100%" height="100%">
 
 
 #### Utilizado stream do java 8 para utilizar a validação de telefone na Main após criar um funcionario
