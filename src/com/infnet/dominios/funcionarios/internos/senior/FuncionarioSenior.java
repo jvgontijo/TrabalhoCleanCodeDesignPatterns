@@ -9,7 +9,7 @@ import com.infnet.dominios.pessoas.Telefone;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-public class FuncionarioSenior extends Funcionario implements FuncionarioInternoSeniorFactory {
+public class FuncionarioSenior extends Funcionario implements FuncionarioSeniorFactory {
 
     public FuncionarioSenior(
             String nome,

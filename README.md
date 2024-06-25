@@ -27,5 +27,8 @@
 
 ### Clean Code e Bad Smells
 #### Foram utilizados nomes coesos.
+#### Evitado uso de comentários
 #### Foi utilizado refatoração de funções, como por exemplo, o switch calcularReajusteSalarial() em Cargo foi removido e utilizado Classes para cada tipo de funcionario, utilizando uma interface de FuncionarioInterno, e uma interface exclusiva para FuncionarioInternoSenior, que não possui avanço de cargo.
 <img src="images/Switch_ReajustarSalarioPorCargo.png" width="100%" height="100%">
+
+#### Utilizado stream do java 8 para utilizar a validação de telefone na Main após criar um funcionario
