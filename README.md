@@ -1,4 +1,6 @@
 # Projeto Disciplina - Padrões de Projeto e Clean Code
+#### Projeto realizado para Disciplina de Padrões de Projeto e Clean Code do curso Pós Graduação em Engenharia de Software Java do Instituto INFNET
+
 
 ## Padrões de Projeto Utilizados:
 ### Criacionais
